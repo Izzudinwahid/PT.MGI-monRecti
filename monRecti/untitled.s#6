@@ -9399,6 +9399,11 @@ Based on the previous libraries:
 <wire x1="-63.5" y1="114.3" x2="-60.96" y2="114.3" width="0.1524" layer="91"/>
 <label x="-60.96" y="114.3" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="MCP1" gate="G$1" pin="B1"/>
+<wire x1="81.28" y1="48.26" x2="83.82" y2="48.26" width="0.1524" layer="91"/>
+<label x="83.82" y="48.26" size="1.4224" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="OUT2" class="0">
 <segment>
@@ -9407,6 +9412,11 @@ Based on the previous libraries:
 <wire x1="-63.5" y1="96.52" x2="-60.96" y2="96.52" width="0.1524" layer="91"/>
 <label x="-60.96" y="96.52" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="MCP1" gate="G$1" pin="B0"/>
+<wire x1="81.28" y1="50.8" x2="83.82" y2="50.8" width="0.1524" layer="91"/>
+<label x="83.82" y="50.8" size="1.4224" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="OUT3" class="0">
 <segment>
@@ -9414,6 +9424,11 @@ Based on the previous libraries:
 <pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="-63.5" y1="78.74" x2="-60.96" y2="78.74" width="0.1524" layer="91"/>
 <label x="-60.96" y="78.74" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MCP1" gate="G$1" pin="-A0"/>
+<wire x1="40.64" y1="38.1" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
+<label x="38.1" y="38.1" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="OUT4" class="0">
@@ -9424,9 +9439,9 @@ Based on the previous libraries:
 <label x="-60.96" y="60.96" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MCP1" gate="G$1" pin="A3"/>
-<wire x1="81.28" y1="68.58" x2="83.82" y2="68.58" width="0.1524" layer="91"/>
-<label x="83.82" y="68.58" size="1.4224" layer="95" xref="yes"/>
+<pinref part="MCP1" gate="G$1" pin="-A1"/>
+<wire x1="40.64" y1="35.56" x2="38.1" y2="35.56" width="0.1524" layer="91"/>
+<label x="38.1" y="35.56" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="OUT5" class="0">
@@ -9437,9 +9452,9 @@ Based on the previous libraries:
 <label x="-60.96" y="43.18" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MCP1" gate="G$1" pin="A4"/>
-<wire x1="81.28" y1="66.04" x2="83.82" y2="66.04" width="0.1524" layer="91"/>
-<label x="83.82" y="66.04" size="1.4224" layer="95" xref="yes"/>
+<pinref part="MCP1" gate="G$1" pin="-A2"/>
+<wire x1="40.64" y1="33.02" x2="38.1" y2="33.02" width="0.1524" layer="91"/>
+<label x="38.1" y="33.02" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="OUT6" class="0">
@@ -9450,14 +9465,9 @@ Based on the previous libraries:
 <label x="-60.96" y="25.4" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MCP1" gate="G$1" pin="A5"/>
-<wire x1="81.28" y1="63.5" x2="83.82" y2="63.5" width="0.1524" layer="91"/>
-<label x="83.82" y="63.5" size="1.4224" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="MCP1" gate="G$1" pin="-A2"/>
-<wire x1="40.64" y1="33.02" x2="38.1" y2="33.02" width="0.1524" layer="91"/>
-<label x="38.1" y="33.02" size="1.4224" layer="95" rot="R180" xref="yes"/>
+<pinref part="MCP1" gate="G$1" pin="A3"/>
+<wire x1="81.28" y1="68.58" x2="83.82" y2="68.58" width="0.1524" layer="91"/>
+<label x="83.82" y="68.58" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="OUT7" class="0">
@@ -9468,14 +9478,9 @@ Based on the previous libraries:
 <label x="-60.96" y="7.62" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MCP1" gate="G$1" pin="A6"/>
-<wire x1="81.28" y1="60.96" x2="83.82" y2="60.96" width="0.1524" layer="91"/>
-<label x="83.82" y="60.96" size="1.4224" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="MCP1" gate="G$1" pin="-A1"/>
-<wire x1="40.64" y1="35.56" x2="38.1" y2="35.56" width="0.1524" layer="91"/>
-<label x="38.1" y="35.56" size="1.4224" layer="95" rot="R180" xref="yes"/>
+<pinref part="MCP1" gate="G$1" pin="A4"/>
+<wire x1="81.28" y1="66.04" x2="83.82" y2="66.04" width="0.1524" layer="91"/>
+<label x="83.82" y="66.04" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="OUT8" class="0">
@@ -9486,14 +9491,9 @@ Based on the previous libraries:
 <label x="-60.96" y="-10.16" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MCP1" gate="G$1" pin="A7"/>
-<wire x1="81.28" y1="58.42" x2="83.82" y2="58.42" width="0.1524" layer="91"/>
-<label x="83.82" y="58.42" size="1.4224" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="MCP1" gate="G$1" pin="-A0"/>
-<wire x1="40.64" y1="38.1" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
-<label x="38.1" y="38.1" size="1.4224" layer="95" rot="R180" xref="yes"/>
+<pinref part="MCP1" gate="G$1" pin="A5"/>
+<wire x1="81.28" y1="63.5" x2="83.82" y2="63.5" width="0.1524" layer="91"/>
+<label x="83.82" y="63.5" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="OUT9" class="0">
@@ -9504,9 +9504,9 @@ Based on the previous libraries:
 <label x="33.02" y="114.3" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MCP1" gate="G$1" pin="B1"/>
-<wire x1="81.28" y1="48.26" x2="83.82" y2="48.26" width="0.1524" layer="91"/>
-<label x="83.82" y="48.26" size="1.4224" layer="95" xref="yes"/>
+<pinref part="MCP1" gate="G$1" pin="A6"/>
+<wire x1="81.28" y1="60.96" x2="83.82" y2="60.96" width="0.1524" layer="91"/>
+<label x="83.82" y="60.96" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="OUT10" class="0">
@@ -9517,9 +9517,9 @@ Based on the previous libraries:
 <label x="33.02" y="96.52" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MCP1" gate="G$1" pin="B0"/>
-<wire x1="81.28" y1="50.8" x2="83.82" y2="50.8" width="0.1524" layer="91"/>
-<label x="83.82" y="50.8" size="1.4224" layer="95" xref="yes"/>
+<pinref part="MCP1" gate="G$1" pin="A7"/>
+<wire x1="81.28" y1="58.42" x2="83.82" y2="58.42" width="0.1524" layer="91"/>
+<label x="83.82" y="58.42" size="1.4224" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VCC" class="0">
