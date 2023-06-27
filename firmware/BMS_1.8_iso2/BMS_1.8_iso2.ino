@@ -6,7 +6,7 @@
 #include <Adafruit_MCP23X17.h>
 
 //LIB for PZEM 01T
-#include <PZEM004Tv30.h>
+  
 #define PZEM_RX_PIN 25
 #define PZEM_TX_PIN 13
 
